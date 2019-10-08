@@ -7,8 +7,8 @@ const Contact = props =>
         <div>
             <h3 className='name'>{props.name}</h3>
             <div className='status'>
-                <div className={ props.online === 'true' ? 'status-online' : 'status-offline'}></div>
-                <span className='status-text'>{ props.online === 'true' ? 'Online' : 'Offline'}</span>
+                <div className={props.online === 'true' ? 'status-online' : 'status-offline'}></div>
+                <span className='status-text'>{props.online === 'true' ? 'Online' : 'Offline'}</span>
             </div>
         </div>
     </div>
