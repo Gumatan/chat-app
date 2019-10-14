@@ -5,7 +5,7 @@ import contactList from './ContactList';
 function App() {
   return (
     <div>
-      {contactList.map(contact=>(<Contact name={contact.name} img={contact.img} online={contact.online} />))}
+      {contactList.map(contact=>(<Contact {...contact} />))}
     </div>
   );
 }
